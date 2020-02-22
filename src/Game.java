@@ -33,7 +33,6 @@ public class Game {
             if(game.getWin()) {
                 break;
             }
-            continueInput = true;
             System.out.println(game);
             System.out.println("---------------------------");
             System.out.print("Drop a yellow disk at column(0 - 6): ");
